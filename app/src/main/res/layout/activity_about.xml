@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABOUT"
+            android:layout_marginLeft="25dp"
+            android:textSize="36sp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forex Trading"
+            android:layout_marginLeft="10dp"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="261dp"
+        android:layout_height="144dp"
+        android:layout_below="@id/ll"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/chart" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="270dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="0dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="The foreign Exchange market (Forex) is the largest financial market.The average daily traded volume is $6.6trilion, according to the
+2019 Triennial Central Bank Survey of FX and OTC derivatives markets."
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/editTextTextMultiLine"
+        android:textColor="@color/white"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="25dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="The Forex is for exchanginng foreign currencies Forex Trading is similar to the currency exchange you may do while travelling abroad, a
+trader buys one currency and sells another, and the exchange rate constantly fluctuates based on supply and demand."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextMultiLine2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:gravity="start|top"
+        android:layout_marginTop="25dp"
+        android:inputType="textMultiLine"
+        android:text="The main difference between forex trading and any other trading is the forex trading is done in pairs, such as EUR/USD(euro/U.S. dollor) or
+JPY/GBP(Japanese yen/British pound). When you make a forex trade, you sell one currency and buy another. You profile if the currency you
+buy moves up against the currency yiu sold."
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
+</ScrollView>
